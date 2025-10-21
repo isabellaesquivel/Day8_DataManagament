@@ -36,7 +36,7 @@ steps:
   displayName: 'Check available ODBC drivers'
 
 # Run your data load script
-- script: python load_data.py
+- script: python import_data.py
   displayName: 'Load CSV data into Azure SQL'
   env:
     SQL_USERNAME: $(SQL_USERNAME)
