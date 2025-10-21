@@ -5,8 +5,8 @@ import urllib
 
 # Load CSV files
 try:
-    brands = pd.read_csv('brand_detail.csv')
-    spend = pd.read_csv('daily_spend.csv')
+    brands = pd.read_csv('data/brand_detail.csv')
+    spend = pd.read_csv('data/daily_spend.csv')
     print("CSV files loaded successfully")
 except Exception as e:
     print("Failed to load CSVs:", e)
